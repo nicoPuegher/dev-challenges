@@ -1,0 +1,14 @@
+# Production
+dist
+
+# Logs
+npm-debug.log*
+
+# Local files
+node_modules
+design
+resources
+*.local
+
+# Editor directories and files
+.DS_Store
