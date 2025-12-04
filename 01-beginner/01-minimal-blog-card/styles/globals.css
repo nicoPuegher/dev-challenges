@@ -22,4 +22,8 @@
 
     --outer-radius: 12px;
     --inner-radius: 8px;
+
+    color-scheme: light dark;
+    color: var(--color-text);
+    background-color: var(--color-background);
 }
