@@ -10,4 +10,13 @@
     --text-normal: normal 14px var(--ff);
     --text-small: normal 12px var(--ff);
     --text-xsmall: normal 10px var(--ff);
+
+    --color-primary: #6325a2;
+    --color-primary-light: #f8f5fe;
+    --color-text-heading: #20293a;
+    --color-text: #6e7180;
+    --color-separator: #e5eaf0;
+    --color-surface: #ffffff;
+    --color-background: #fafafa;
+    --color-shadow: rgba(85, 85, 85, 0.08);
 }
