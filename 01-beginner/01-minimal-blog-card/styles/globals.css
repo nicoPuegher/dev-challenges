@@ -19,4 +19,7 @@
     --color-surface: #ffffff;
     --color-background: #fafafa;
     --color-shadow: rgba(85, 85, 85, 0.08);
+
+    --outer-radius: 12px;
+    --inner-radius: 8px;
 }
