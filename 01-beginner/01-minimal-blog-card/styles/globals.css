@@ -27,3 +27,10 @@
     color: var(--color-text);
     background-color: var(--color-background);
 }
+
+* {
+    font: var(--text-normal);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
