@@ -34,3 +34,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: var(--ff);
+    height: 100dvh;
+}
