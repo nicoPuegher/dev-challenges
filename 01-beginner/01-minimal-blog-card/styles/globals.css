@@ -51,3 +51,13 @@ main {
 .shadow {
     box-shadow: 8px 8px 20px 0px var(--color-shadow);
 }
+
+/* Card */
+.card {
+    position: relative;
+    width: 368px;
+    height: 388px;
+    padding: 16px 16px 20px 16px;
+    border-radius: var(--outer-radius);
+    background-color: var(--color-surface);
+}
