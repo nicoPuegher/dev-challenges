@@ -61,3 +61,7 @@ main {
     border-radius: var(--outer-radius);
     background-color: var(--color-surface);
 }
+
+.card__header {
+    border-radius: var(--inner-radius);
+}
