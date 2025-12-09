@@ -65,3 +65,9 @@ main {
 .card__header {
     border-radius: var(--inner-radius);
 }
+
+.card__image {
+    width: 336px;
+    height: 152px;
+    border-radius: var(--inner-radius);
+}
