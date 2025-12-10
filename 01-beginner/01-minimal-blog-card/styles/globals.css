@@ -71,3 +71,15 @@ main {
     height: 152px;
     border-radius: var(--inner-radius);
 }
+
+.card__tag {
+    font: var(--text-xsmall);
+    font-weight: 600;
+    line-height: 21px;
+    display: inline-block;
+    padding-inline: 16px;
+    margin-top: 11px;
+    border-radius: var(--outer-radius);
+    color: var(--color-primary);
+    background-color: var(--color-primary-light);
+}
