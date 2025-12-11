@@ -83,3 +83,7 @@ main {
     color: var(--color-primary);
     background-color: var(--color-primary-light);
 }
+
+.card__content {
+    margin-top: 20px;
+}
