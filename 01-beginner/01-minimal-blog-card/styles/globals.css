@@ -87,3 +87,12 @@ main {
 .card__content {
     margin-top: 20px;
 }
+
+.card__title {
+    font: var(--text-large);
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: -0.2px;
+    padding-bottom: 6px;
+    color: var(--color-text-heading);
+}
