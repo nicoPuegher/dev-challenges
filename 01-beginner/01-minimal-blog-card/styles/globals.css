@@ -96,3 +96,12 @@ main {
     padding-bottom: 6px;
     color: var(--color-text-heading);
 }
+
+.card__text {
+    font: var(--text-normal);
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: -0.15px;
+    padding-top: 4px;
+    padding-right: 10px;
+}
