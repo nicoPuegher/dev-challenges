@@ -115,3 +115,7 @@ main {
     border: none;
     border-top: 1px solid var(--color-separator);
 }
+
+.card__footer {
+    margin-top: 38px;
+}
