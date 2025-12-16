@@ -119,3 +119,8 @@ main {
 .card__footer {
     margin-top: 38px;
 }
+
+.card__author {
+    font: var(--text-small);
+    letter-spacing: -0.1px;
+}
