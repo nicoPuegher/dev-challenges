@@ -124,3 +124,14 @@ main {
     font: var(--text-small);
     letter-spacing: -0.1px;
 }
+
+/* Light theme */
+@media (prefers-color-scheme: light) {
+    :root {
+        --gray100: hsl(0deg, 0%, 0%);
+        --gray70: hsl(0deg, 0%, 30%);
+        --gray50: hsl(0deg, 0%, 50%);
+        --gray10: hsl(0deg, 0%, 90%);
+        --gray0: hsl(0deg, 0%, 100%);
+    }
+}
