@@ -1,0 +1,137 @@
+/* Base styles */
+:root {
+    --ff: 'Sora', sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --text-large: normal 18px var(--ff);
+    --text-normal: normal 14px var(--ff);
+    --text-small: normal 12px var(--ff);
+    --text-xsmall: normal 10px var(--ff);
+
+    --color-primary: #6325a2;
+    --color-primary-light: #f8f5fe;
+    --color-text-heading: #20293a;
+    --color-text: #6e7180;
+    --color-separator: #e5eaf0;
+    --color-surface: #ffffff;
+    --color-background: #fafafa;
+    --color-shadow: rgba(85, 85, 85, 0.08);
+
+    --outer-radius: 12px;
+    --inner-radius: 8px;
+
+    color-scheme: light dark;
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+
+* {
+    font: var(--text-normal);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff);
+    height: 100dvh;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Utilities */
+.shadow {
+    box-shadow: 8px 8px 20px 0px var(--color-shadow);
+}
+
+/* Card */
+.card {
+    position: relative;
+    width: 368px;
+    height: 388px;
+    padding: 16px 16px 20px 16px;
+    border-radius: var(--outer-radius);
+    background-color: var(--color-surface);
+}
+
+.card__header {
+    border-radius: var(--inner-radius);
+}
+
+.card__image {
+    width: 336px;
+    height: 152px;
+    border-radius: var(--inner-radius);
+}
+
+.card__tag {
+    font: var(--text-xsmall);
+    font-weight: 600;
+    line-height: 21px;
+    display: inline-block;
+    padding-inline: 16px;
+    margin-top: 11px;
+    border-radius: var(--outer-radius);
+    color: var(--color-primary);
+    background-color: var(--color-primary-light);
+}
+
+.card__content {
+    margin-top: 20px;
+}
+
+.card__title {
+    font: var(--text-large);
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: -0.2px;
+    padding-bottom: 6px;
+    color: var(--color-text-heading);
+}
+
+.card__text {
+    font: var(--text-normal);
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: -0.15px;
+    padding-top: 4px;
+    padding-right: 10px;
+}
+
+.card__separator {
+    position: absolute;
+    left: 0;
+    bottom: 55px;
+    width: 100%;
+    height: 1px;
+    border: none;
+    border-top: 1px solid var(--color-separator);
+}
+
+.card__footer {
+    margin-top: 38px;
+}
+
+.card__author {
+    font: var(--text-small);
+    letter-spacing: -0.1px;
+}
+
+/* Light theme */
+@media (prefers-color-scheme: light) {
+    :root {
+        --gray100: hsl(0deg, 0%, 0%);
+        --gray70: hsl(0deg, 0%, 30%);
+        --gray50: hsl(0deg, 0%, 50%);
+        --gray10: hsl(0deg, 0%, 90%);
+        --gray0: hsl(0deg, 0%, 100%);
+    }
+}
